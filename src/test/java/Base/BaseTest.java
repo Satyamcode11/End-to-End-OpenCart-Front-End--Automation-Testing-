@@ -24,5 +24,5 @@ public class BaseTest {
         driver.quit();
     }
 
-    //Add every line
+
 }
