@@ -8,6 +8,29 @@
     <artifactId>OpenCart_Automation_Testing_Project</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+
+<!--        This gives me selenium webdriver and related selenium APIs-->
+
+        <!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.47.0</version>
+            <scope>compile</scope>
+        </dependency>
+
+<!--        This is for test -->
+
+        <!-- Source: https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.11.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
     <properties>
         <maven.compiler.source>23</maven.compiler.source>
         <maven.compiler.target>23</maven.compiler.target>
