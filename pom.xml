@@ -17,7 +17,7 @@
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>4.47.0</version>
-            <scope>compile</scope>
+
         </dependency>
 
 <!--        This is for test -->
@@ -27,7 +27,7 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.11.0</version>
-            <scope>test</scope>
+
         </dependency>
     </dependencies>
 

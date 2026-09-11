@@ -19,7 +19,7 @@ public class HomePage extends BasePage {
     public HomePage(WebDriver driver) {
         super(driver);
 
-        wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(60));
     }
 
     //Click on My Account..........

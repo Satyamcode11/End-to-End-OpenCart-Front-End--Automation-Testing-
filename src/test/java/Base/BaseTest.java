@@ -14,7 +14,7 @@ public class BaseTest {
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://demo.opencart.com/");
+        driver.get("https://demo.nopcommerce.com/register?");
         System.out.println(driver.getCurrentUrl());
         System.out.println(driver.getTitle());
     }
